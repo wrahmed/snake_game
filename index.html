@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link href="style.css" rel="stylesheet">  
+</head>
+
+<body>
+    <h1>Snake Game : IAGI's Version</h1>
+        <label for="level">Select Difficulty Level:</label><br>
+        <select name="level" id="level" required>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select><br>
+        <button id="play" onclick="drawGame();">PLAY</button>
+    <canvas id="game" width="400" height="400">
+    <script src="index.js"></script>
+</body>
+</html>

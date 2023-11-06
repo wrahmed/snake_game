@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+canvas{
+    box-shadow: black 20px 10px 50px;
+    margin-top: 5% ;
+}
+label
+{
+    font-size: 18px;
+}
